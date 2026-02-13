@@ -2,6 +2,56 @@
 
 # ArmoniK.Core
 
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                .banner {
+                    width: 100%;
+                    height: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    color: white;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+                }
+                
+                .title {
+                    font-size: 48px;
+                    font-weight: bold;
+                    margin: 0;
+                }
+                
+                .subtitle {
+                    font-size: 20px;
+                    margin: 10px 0 0 0;
+                    opacity: 0.9;
+                }
+
+                @media (prefers-color-scheme: dark) {
+                    .banner {
+                        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+                        border: 1px solid #444;
+                    }
+                }
+
+                @media (prefers-color-scheme: light) {
+                    .banner {
+                        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                        color: #1a1a2e;
+                    }
+                }
+            </style>
+            <div class="banner">
+                <h1 class="title">Your Project Name</h1>
+                <p class="subtitle">A cool tagline goes here</p>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
+
 | Stable                                                                                                                                                                                                                                                       | Edge                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Docker image latest version](https://img.shields.io/docker/v/dockerhubaneo/armonik_pollingagent?color=fe5001&label=armonik_pollingagent&sort=semver)](https://hub.docker.com/r/dockerhubaneo/armonik_pollingagent)                                        | [![Docker image latest version](https://img.shields.io/docker/v/dockerhubaneo/armonik_pollingagent?color=fe5001&label=armonik_pollingagent&sort=date)](https://hub.docker.com/r/dockerhubaneo/armonik_pollingagent)                                        |
